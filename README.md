@@ -5,12 +5,19 @@ breeze.
 
 [example](http://www.rcorrie.com/#/demos/tidy-img)
 
-## Usage
+## Install
 
-Declare tidy-img as a dependency.
+Install with NPM `npm install --save angular-tidy-img`
+
+Or, install with Bower `bower install --save angular-tidy-img`
+
+Now, declare tidy-img as a dependency.
 ```javascript
 var app = angular.module( 'MyApp', [ 'rc.tidyImg' ] );
 ```
+
+## Usage
+
 In your templates, apply the tidy-img directive as an `element` or an
 `attribute`
 ```html
