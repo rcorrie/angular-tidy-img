@@ -1,5 +1,4 @@
-[![npm version](https://badge.fury.io/js/angular-tidy-img.svg)](https://badge.fury.io/js/angular-tidy-img)
-
+[![NPM](https://nodei.co/npm/angular-tidy-img.png)](https://npmjs.org/package/angular-tidy-img)
 # angular-tidy-img
 
 A small AngularJS directive that handles that makes working with images a
