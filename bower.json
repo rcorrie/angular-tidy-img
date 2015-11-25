@@ -1,7 +1,7 @@
 {
   "name": "angular-tidy-img",
   "description": "AngularJS directive for common image event handling",
-  "main": "tidyImg.js",
+  "main": "angular-tidy-img.js",
   "authors": [
     "ricardo corrie <rc@rcorrie.com>"
   ],
