@@ -1,5 +1,4 @@
 [![npm version](https://badge.fury.io/js/angular-tidy-img.svg)](https://badge.fury.io/js/angular-tidy-img)
-[![bower version](https://badge.fury.io/js/angular-tidy-img.svg)](https://badge.fury.io/js/angular-tidy-img)
 
 # angular-tidy-img
 
