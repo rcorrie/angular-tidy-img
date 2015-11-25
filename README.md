@@ -1,7 +1,7 @@
 [![NPM](https://nodei.co/npm/angular-tidy-img.png)](https://npmjs.org/package/angular-tidy-img)
 # angular-tidy-img
 
-A small AngularJS directive that handles that makes working with images a
+A small AngularJS directive that makes working with images a
 breeze.
 
 __todo__ ~~[example](http://www.rcorrie.com/#/demos/tidy-img)~~ 
