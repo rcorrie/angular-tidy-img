@@ -14,6 +14,7 @@
                     width: attrs.imgWidth,
                     height: attrs.imgHeight,
                     backgroundSize: attrs.imgWidth + ' ' + attrs.imgHeight,
+                    backgroundRepeat: 'no-repeat',
                     display: 'inline-block'
                 })
 
