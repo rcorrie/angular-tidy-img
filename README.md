@@ -4,7 +4,7 @@
 A small AngularJS directive that handles that makes working with images a
 breeze.
 
-[example](http://www.rcorrie.com/#/demos/tidy-img)
+__todo__ ~~[example](http://www.rcorrie.com/#/demos/tidy-img)~~ 
 
 tidy-img lets you pass in a "loader", which will be shown while your image is
 being loaded. It also lets you specify a fallback image url in case your image
