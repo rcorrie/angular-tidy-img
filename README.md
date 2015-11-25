@@ -8,12 +8,12 @@ breeze.
 ## Usage
 
 Declare tidy-img as a dependency.
-```
+```javascript
 var app = angular.module( 'MyApp', [ 'rc.tidyImg' ] );
 ```
 In your templates, apply the tidy-img directive as an `element` or an
 `attribute`
-```
+```html
 <tidy-img
     img-src="your/image/path/or/url.png" // required
     img-width="100px" // required
