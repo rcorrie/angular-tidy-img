@@ -1,0 +1,23 @@
+{
+  "name": "angular-tidy-img",
+  "description": "AngularJS directive for common image event handling",
+  "main": "tidyImg.js",
+  "authors": [
+    "ricardo corrie <rcorrie90@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "images",
+    "loader"
+  ],
+  "homepage": "https://github.com/rcorrie/angular-tidy-img",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

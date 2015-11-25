@@ -2,9 +2,9 @@
 
     'use strict';
 
-    var imageLoader = angular.module( 'rc.tidyImg', [] );
+    var tidyImg = angular.module( 'rc.tidyImg', [] );
 
-    imageLoader.directive( 'tidyImg', [function() {
+    tidyImg.directive( 'tidyImg', [function() {
 
         return {
             restrict: 'AE',

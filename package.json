@@ -1,0 +1,24 @@
+{
+  "name": "angular-tidy-img",
+  "version": "1.0.0",
+  "description": "AngularJS directive for common image event handling",
+  "main": "tidyImg.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rcorrie/angular-tidy-img.git"
+  },
+  "keywords": [
+    "angular",
+    "images",
+    "loader"
+  ],
+  "author": "ricardo corrie <rcorrie90@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcorrie/angular-tidy-img/issues"
+  },
+  "homepage": "https://github.com/rcorrie/angular-tidy-img#readme"
+}
