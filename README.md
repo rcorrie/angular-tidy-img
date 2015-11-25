@@ -27,15 +27,17 @@ In your templates, apply the tidy-img directive as an `element` or an
 `attribute`
 ```html
 <tidy-img
-    img-src="your/image/path/or/url.png" // required
-    img-width="100px" // required
-    img-height="100px" // required
-    loader="<img src='my/preloader/spinner.gif'>" // optional
-    fallbackSrc="fallback/image/in/case/of/error.png" // optional
+    img-src="your/image/path/or/url.png" <!--- required --->
+    img-width="100px" <!--- optional --->
+    img-height="100px" <!--- optional --->
+    loader="<img src='my/preloader/spinner.gif'>" <!--- optional --->
+    fallbackSrc="fallback/image/in/case/of/error.png" <!--- optional --->
 ></tidy-img>
 ```
 
 ***NOTE***
+* You should apply your own styles to this directive.
 * The `loader` attribute can be an html element or a simple string.
 * All of the attributes accept interpolated variables.
-* You can and should apply your own styles or classes to the directive. 
+* If don't pass in a width or height, then your image container might now be
+  visible since it has 0x0px dimensions. 

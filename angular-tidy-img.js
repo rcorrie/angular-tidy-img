@@ -13,10 +13,10 @@
                 element.css({
                     width: attrs.imgWidth,
                     height: attrs.imgHeight,
+                    display: (attrs.imgHeight && attrs.imgWidth? 'inline-block' : null),
                     backgroundSize: attrs.imgWidth + ' ' + attrs.imgHeight,
-                    backgroundRepeat: 'no-repeat',
-                    display: 'inline-block'
-                })
+                    backgroundRepeat: 'no-repeat'
+                });
 
                 var loader = angular.element( attrs.loader );
                 element.append( loader );
@@ -37,8 +37,8 @@
                 function insertImage( url ) {
                 };
             }
-        }
+        };
 
-    }] )
+    }] );
 
 })();
