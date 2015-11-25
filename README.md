@@ -1,12 +1,10 @@
-[![npm version](https://badge.fury.io/js/angular-tidy-img.svg)](https://badge.fury.io/js/angular-tidy-img)
-[![bower version](https://badge.fury.io/js/angular-tidy-img.svg)](https://badge.fury.io/js/angular-tidy-img)
-
+[![NPM](https://nodei.co/npm/angular-tidy-img.png)](https://npmjs.org/package/angular-tidy-img)
 # angular-tidy-img
 
 A small AngularJS directive that handles that makes working with images a
 breeze.
 
-[example](http://www.rcorrie.com/#/demos/tidy-img)
+__todo__ ~~[example](http://www.rcorrie.com/#/demos/tidy-img)~~ 
 
 tidy-img lets you pass in a "loader", which will be shown while your image is
 being loaded. It also lets you specify a fallback image url in case your image
