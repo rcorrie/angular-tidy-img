@@ -5,6 +5,10 @@ breeze.
 
 [example](http://www.rcorrie.com/#/demos/tidy-img)
 
+tidy-img lets you pass in a "loader", which will be shown while your image is
+being loaded. It also lets you specify a fallback image url in case your image
+isn't found.
+
 ## Install
 
 Install with NPM `npm install --save angular-tidy-img`
@@ -31,5 +35,6 @@ In your templates, apply the tidy-img directive as an `element` or an
 ```
 
 ***NOTE***
+* The `loader` attribute can be an html element or a simple string.
 * All of the attributes accept interpolated variables.
 * You can and should apply your own styles or classes to the directive. 
