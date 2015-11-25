@@ -3,7 +3,7 @@
   "description": "AngularJS directive for common image event handling",
   "main": "tidyImg.js",
   "authors": [
-    "ricardo corrie <rcorrie90@gmail.com>"
+    "ricardo corrie <rc@rcorrie.com>"
   ],
   "license": "MIT",
   "keywords": [
