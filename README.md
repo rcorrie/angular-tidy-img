@@ -27,17 +27,24 @@ In your templates, apply the tidy-img directive as an `element` or an
 `attribute`
 ```html
 <tidy-img
-    img-src="your/image/path/or/url.png" <!--- required --->
-    img-width="100px" <!--- optional --->
-    img-height="100px" <!--- optional --->
-    loader="<img src='my/preloader/spinner.gif'>" <!--- optional --->
-    fallbackSrc="fallback/image/in/case/of/error.png" <!--- optional --->
+    img-src="your/image/path/or/url.png"
+    img-width="100px" 
+    img-height="100px" 
+    loader="<img src='my/preloader/spinner.gif'>" 
+    fallbackSrc="fallback/image/in/case/of/error.png" 
 ></tidy-img>
 ```
 
+### API
+
+|img-src        | **string** *required* - url or path to your desired image|
+|img-width      | **string** *optional* - dimensianal unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size|
+|img-height     | **string** *optional* - dimensianal unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size|
+|loader         | **string** *optional* - HTML markup (*not* an actual element reference), for example `<b class="loader">Loading...</b>`|
+|fallbackSrc    | **string** *optional* - url or path to fallback image in case we couldn't load the intended image|
+
 ***NOTE***
 * You should apply your own styles to this directive.
-* The `loader` attribute can be an html element or a simple string.
 * All of the attributes accept interpolated variables.
 * If don't pass in a width or height, then your image container might now be
   visible since it has 0x0px dimensions. 
