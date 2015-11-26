@@ -38,6 +38,7 @@ In your templates, apply the tidy-img directive as an `element` or an
 ### API
 
 |img-src        | **string** *required* - url or path to your desired image|
+|---------------|----------------------------------------------------------|
 |img-width      | **string** *optional* - dimensianal unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size|
 |img-height     | **string** *optional* - dimensianal unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size|
 |loader         | **string** *optional* - HTML markup (*not* an actual element reference), for example `<b class="loader">Loading...</b>`|
