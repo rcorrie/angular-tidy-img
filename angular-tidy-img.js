@@ -34,8 +34,6 @@
 
                 bgImg.src = attrs.imgSrc;
 
-                function insertImage( url ) {
-                };
             }
         };
 
