@@ -50,3 +50,8 @@ fallbackSrc                   | **string** *optional* - url or path to fallback 
 * All of the attributes accept interpolated variables.
 * If don't pass in a width or height, then your image container might now be
   visible since it has 0x0px dimensions. 
+* Changes in your model will not have any effect yet, will get to this soon.
+
+***TODO***
+* Demo with different usage cases.
+* Use `$observe` on `img-src` attribute to apply  model changes.
