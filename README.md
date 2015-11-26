@@ -37,12 +37,13 @@ In your templates, apply the tidy-img directive as an `element` or an
 
 ### API
 
-|img-src        | **string** *required* - url or path to your desired image|
-|---------------|----------------------------------------------------------|
-|img-width      | **string** *optional* - dimensianal unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size|
-|img-height     | **string** *optional* - dimensianal unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size|
-|loader         | **string** *optional* - HTML markup (*not* an actual element reference), for example `<b class="loader">Loading...</b>`|
-|fallbackSrc    | **string** *optional* - url or path to fallback image in case we couldn't load the intended image|
+Attribute                      | Info                                                     
+:------------------------------|:---------------------------------------------------------
+imgSrc                        | **string** *required* - url or path to your desired image
+imgWidth                      | **string** *optional* - dimensional unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size
+imgHeight                     | **string** *optional* - dimensional unit, if you don't specify this, you'll want to add your own CSS styles or the image will not be the right size
+loader                         | **string** *optional* - HTML markup (*not* an actual element reference), for example `<b class="loader">Loading...</b>`
+fallbackSrc                   | **string** *optional* - url or path to fallback image in case we couldn't load the intended image
 
 ***NOTE***
 * You should apply your own styles to this directive.
