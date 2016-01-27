@@ -1,4 +1,3 @@
-[![NPM](https://nodei.co/npm/angular-tidy-img.png)](https://npmjs.org/package/angular-tidy-img)
 # angular-tidy-img
 
 A small AngularJS directive that makes working with images a
@@ -12,9 +11,7 @@ isn't found.
 
 ## Install
 
-Install with NPM `npm install --save angular-tidy-img`
-
-Or, install with Bower `bower install --save angular-tidy-img`
+Install with Bower `bower install --save angular-tidy-img`
 
 Now, declare tidy-img as a dependency.
 ```javascript
